@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уроки танців від Юлії</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #8e44ad;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .classes, .contact {
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8e44ad;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #5e337b;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Заголовок -->
+    <header>
+        <h1>Уроки танців від Юлії</h1>
+        <p>Запрошую дітей від 3-х років на веселі та енергійні заняття з танців!</p>
+    </header>
+
+    <!-- Про мене -->
+    <section class="about">
+        <h2>Про мене</h2>
+        <p>Привіт! Мене звати Юлія, мені 16 років, і я студентка 2 курсу коледжу танців. Танцями займаюсь ще з першого класу, і за цей час у мене накопичилося чимало виступів і концертів. Танці – це моє життя, і я з радістю передаю свої знання дітям!</p>
+    </section>
+
+    <!-- Опис занять -->
+    <section class="classes">
+        <h2>Про уроки</h2>
+        <p>На моїх заняттях дітки навчаться основам танцю, розвинуть координацію та відчуття ритму. Уроки проходять у веселій атмосфері, де кожна дитина зможе розкрити свій потенціал і отримати задоволення від танцю.</p>
+        <p>Запрошую всіх бажаючих – незалежно від рівня підготовки!</p>
+    </section>
+
+    <!-- Контакти -->
+    <section class="contact">
+        <h2>Контакти</h2>
+        <p>Якщо вас зацікавили мої заняття, не соромтеся зв'язатися зі мною для детальної інформації.</p>
+        <a href="mailto:your-email@example.com" class="button">Написати мені</a>
+    </section>
+
+    <!-- Підвал -->
+    <footer>
+        <p>© 2023 Юлія. Всі права захищені.</p>
+    </footer>
+
+</body>
+</html>
